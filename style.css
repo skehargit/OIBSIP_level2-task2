@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            background-color: black;
+            display: flex;
+            font-family: 'Nunito', sans-serif;
+        }
+        .right_side{
+            color: white;
+        }
+        .header{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+        .header h1{
+            color: rgb(91, 230, 103);
+        }
+        .header h4{
+            color: rgb(83, 127, 249);
+        }
+        .name{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .about p{
+            text-indent: 60px;
+            padding: 20px;
+            letter-spacing: 1px;
+        }
+        .about h2{
+            text-transform: capitalize;
+            color: rgb(91, 230, 103);
+            letter-spacing: 2px;
+        }
+        .right_side img{
+            
+            display: none;
+        }
+        .footer{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .footer span{
+            font-family: 'Dancing Script', cursive;
+        }
+        a{
+            color: red;
+        }
+        @media only screen and (max-width: 1400px) {
+            .left_side img{
+                display: none;
+            }
+            .right_side .image img{
+                display: block;
+                height: 300px;
+            }
+            .header{
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+        }
+        
